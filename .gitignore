@@ -1,0 +1,33 @@
+*.iml
+.gradle/
+.idea/
+.kotlin/
+.android/
+.DS_Store
+*.log
+*~
+
+local.properties
+keystore.properties
+**/*.jks
+**/*.keystore
+
+**/build/
+build/
+captures/
+externalNativeBuild/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio/IntelliJ
+**/.idea/*
+**/.idea/**/*
+
+# Gradle
+**/.gradle/
+
+# VS Code
+.vscode/
+
+# Reports
+**/reports/
