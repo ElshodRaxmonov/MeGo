@@ -49,6 +49,9 @@ dependencies {
     implementation(project(":core:navigation"))
     implementation(project(":core:network"))
     implementation(project(":core:uikit"))
+    implementation(project(":feature:settings"))
+    implementation(project(":legacy:auth"))
+    implementation(project(":sync:time"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
